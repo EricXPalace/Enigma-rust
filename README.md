@@ -9,8 +9,8 @@ By current plan, this project will be an commandline tool in following usage:
 To simulate the real enigma machine on history.
 
 # Develop Plan
-1. **(CURRENT STATE)** Understanding how Enigma works.
-2. Build main.rs as main mechanism. // ./enigma <string>
+1. Understanding how Enigma works.
+2. **(CURRENT STATE)** Build main.rs as main mechanism. // ./enigma <string>
 3. Add dial function. // ./enigma <string> --dial <dial-cog-number>
 4. Add wire function. // ./enigma <string> --dial <dial-cog-number> --wire <wiretab-pair>
 5. Add file encrypt function.
@@ -18,4 +18,5 @@ To simulate the real enigma machine on history.
 7. Enter maintenance state (End of updation)
 
 # Workflow
+* v0.1.0 Add clap crate as main crate for developing.
 * 2023-11-01 Start Project
