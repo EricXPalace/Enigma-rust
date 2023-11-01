@@ -3,7 +3,9 @@ This project is targeting to make a Enigma machine in RUST language in learning 
 
 # Usage
 By current plan, this project will be an commandline tool in following usage:
-* ./enigma <filename> --dial <dial-cog-number> --wire <wiretab-pair>
+~~~
+./enigma <filename> --dial <dial-cog-number> --wire <wiretab-pair>
+~~~
 To simulate the real enigma machine on history.
 
 # Develop Plan

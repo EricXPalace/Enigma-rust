@@ -1,8 +1,12 @@
 [package]
-name = "my-project"
+name = "enigma-on-rust"
 version = "0.1.0"
-authors = ["runner"]
+authors = ["Ericsson.Xeon <tom.leon.eric@gmail.com>"]
 edition = "2021"
+
+[[bin]]
+name = "enigma"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
