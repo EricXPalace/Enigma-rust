@@ -18,6 +18,7 @@ To simulate the real enigma machine on history.
 7. Enter maintenance state (End of updation)
 
 # Workflow
+* 2023-11-02 Add skeleton code from ChatGPT as starter.
 * 2023-11-02 Downgrade [clap](https://crates.io/crates/clap/versions) to meet rustc version on [Replit](replit.com).
 * 2023-11-01 Add clap crate as main crate for developing.
 * 2023-11-01 Start Project

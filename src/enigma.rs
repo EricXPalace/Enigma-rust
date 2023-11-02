@@ -3,9 +3,9 @@ pub struct Enigma {
     wires: Vec<(char, char)>,
 }
 
-impl Enigma {
+pub impl Enigma {
     fn encrypt(&self, input: &str) -> String {
-        // TODO: 實現加密算法
+        // TODO: Make ecryption function.
         String::new()
     }
 }
